@@ -1,20 +1,33 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+---
+languages:
+- csharp
+products:
+- dotnet
+- dotnet-core
+page_type: sample
+name: "Order .NET Core unit tests"
+urlFragment: "order-unit-tests-cs"
+description: "Several .NET Core unit test projects that demonstrate how to order unit test runs. This includes MSTest, xUnit, and NUnit test frameworks."
+---
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+# Order .NET Core unit tests
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+This sample includes several .NET Core unit test projects. Collectively, they demonstrate how to order unit test runs. This includes MSTest, xUnit, and NUnit test frameworks.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Sample prerequisites
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+This sample is written in C# and targets .NET Core 3.1. It requires the [.NET Core 3.1 SDK](https://dotnet.microsoft.com/download/dotnet-core/3.1).
+
+## Building the sample
+
+The source code includes an MSBuild project file for C# (a *.csproj* file) that targets .NET Core 3.1. After you download the *.zip* file containing the example code, create a directory and select **Download ZIP** to download the sample code files to your computer. To build the example:
+
+1. Download the *.zip* file containing.
+1. Create the directory to which you want to copy the files.
+1. Copy the files from the *.zip* file to the directory you just created.
+1. If you are using Visual Studio 2019:
+   1. In Visual Studio, select **Open a project or solution** (or **File** > **Open** > **Project/Solution** from the Visual Studio menu.
+   1. Select **Debug** > **Start Debugging** from the Visual Studio menu to build and launch the application.
+1. If you are working from the command line:
+   1. Navigate to the directory that contains the sample.
+   1. Type in the command `dotnet run` to build and launch the application.
